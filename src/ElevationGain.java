@@ -19,6 +19,7 @@ public class ElevationGain {
                 if (Integer.parseInt(temp) != -1) {
                     hike.add(Integer.parseInt(temp));
                 } else {
+                    System.out.println(hike);
                     inputs.add(hike);
                     hike = new ArrayList<>();
                 }
